@@ -22,3 +22,9 @@ class Secrets(TypedDict):
     delegator: str
     enpoint: Endpoint
 
+class Config(TypedDict):
+    contract: Contract
+    block: Block
+    endpoint: Endpoint
+    delegator: str
+
