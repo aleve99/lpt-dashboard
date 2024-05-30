@@ -1,5 +1,5 @@
 # Config files
-*.toml
+secrets.toml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

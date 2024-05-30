@@ -4,7 +4,7 @@ class Endpoint(TypedDict):
     arbitrum: str
     ethereum: str
 
-class Address(TypedDict):
+class Contract(TypedDict):
     bonding_manager: str
     round_manager: str
     lpt_token: str
@@ -14,8 +14,11 @@ class Block(TypedDict):
     step: int
     starting: int
 
-class Config(TypedDict):
-    enpoint: Endpoint
-    address: Address
+class Common(TypedDict):
+    contract: Contract
     block: Block
+
+class Secrets(TypedDict):
+    delegator: str
+    enpoint: Endpoint
 
