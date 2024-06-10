@@ -1,6 +1,9 @@
 # Config files
 secrets.toml
 
+# Csv files
+*.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

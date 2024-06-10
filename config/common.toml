@@ -2,6 +2,7 @@
     bonding_manager = "0x35Bcf3c30594191d53231E4FF333E8A770453e40" 
     rounds_manager = "0xdd6f56DcC28D3F5f27084381fE8Df634985cc39f"
     lpt_token = "0x289ba1701C2F088cf0faf8B3705246331cB8A839"
+    tlpt_token = "0x218337076c79A6D94EB3B557f2c89dDd82E883A0"
 
 [block]
     step = 50000
